@@ -1,0 +1,9 @@
+{
+  "name": "pr-review-job",
+  "version": "1.0.0",
+  "description": "PR review job processor - Node.js orchestrator calling Go analyzer",
+  "main": "processor.js",
+  "dependencies": {
+    "redis": "^4.6.13"
+  }
+}
