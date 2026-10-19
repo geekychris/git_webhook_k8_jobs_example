@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.png" alt="Git Webhook K8 Jobs Example logo" width="180">
+</p>
+
 # Git Webhook Processor
 
 A Kubernetes-native system that receives GitHub webhook events, enriches them via sidecars, queues them in Redis, and processes them as dynamically-created K8s Jobs with concurrency control and deduplication.
